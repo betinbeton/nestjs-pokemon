@@ -4,20 +4,20 @@
 
 
 
-# Ejecutar en Desarrollo
+# Dev execution
 
-1. Clonar el repositorio
-2. Ejecutar
+1. Clon the repository
+2. Execute
 ```
 yarn install
 ```
 
-3. tener Nest CLI instalado
+3. Need Nest CLI 
 ```
 npm i -g @nestjs/cli
 ```
 
-4. Levantar la base de datos
+4. Docker to start database - MONGODB
 ```
 docker-compose up -d
 ```
@@ -40,7 +40,7 @@ http://localhost:3000/api/v2/seed
 * MongoDB
 * Nest
 
-# Production buil
+# Production build
 1. Create the file
 ```
 .env.prod
